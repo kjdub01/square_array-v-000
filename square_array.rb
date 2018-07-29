@@ -8,3 +8,7 @@ end
 def square_array_with_collect(array)
   array.collect{|i| i ** 2}
 end
+
+def square_array_with_map(array)
+  array.map{|i| i ** 2}
+end
